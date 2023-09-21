@@ -5,10 +5,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
 }
 
 img {
   width: 600px;
+  padding: 4px 32px;
 }
 
 button {
@@ -25,3 +27,51 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+.header {
+  background: #eeeeee;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  margin: 10px;
+  padding:0px;
+  gap: 16px;
+}
+
+.left-links, .right-links{
+  display: flex;
+align-items: center;
+  gap: 16px;
+}
+
+.footer{
+  background:#eeeeee;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-top: 1px
+}
+.content{
+display: flex;
+flex-direction: column; /* Stack children vertically */
+align-items: center; /* Center horizontally */
+justify-content: center; /* Center vertically */
+height: 50vh; /* Optional: Set a minimum height for the container */
+padding: 150PX;
+}
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+
